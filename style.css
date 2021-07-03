@@ -59,3 +59,26 @@ body {
 .w {
   background: url(/images/tom4.png);
 }
+
+@media (max-width: 375px) {
+  .container {
+    height: 100vh;
+    justify-content: space-between;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .set {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-around; */
+  }
+  .drum {
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}
